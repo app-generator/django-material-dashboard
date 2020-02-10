@@ -1,6 +1,6 @@
 {
   "name": "django-dashboard-material",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple UI-Ready Django boilerplate.",
   "scripts": {
     "lint": "eslint ."
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/app-generator/django-dashboard-material"
+    "url": "https://github.com/app-generator/django-dashboard-materials"
   },
   "keywords": [
     "django",

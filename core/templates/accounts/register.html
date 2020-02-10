@@ -21,74 +21,83 @@
               {% if msg %}
                 <span class="text-danger">{{ msg }}</span>
               {% else %}
-                Complete your credentials
+                Add your credentials or <a href={% url 'login' %} >authenticate</a> with an existing account.
               {% endif %}  
           </h6>
           
           <br />
 
-          <form role="form" method="post" action="">
-              
-            {% csrf_token %} 
+          {% if success %}
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label class="bmd-label-floating">Username</label>
-                  {{ form.username }}
+            <p class="">
+              Please <a href={% url 'login' %} class="text-black text-small">authenticate</a> using the new account.
+            </p>  
+
+          {% else %}
+            <form role="form" method="post" action="">
+                
+              {% csrf_token %} 
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Username</label>
+                    {{ form.username }}
+                  </div>
                 </div>
               </div>
-            </div>
-            <span class="text-danger">{{ form.username.errors }}</span>
+              <span class="text-danger">{{ form.username.errors }}</span>
 
-            <br />
+              <br />
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label class="bmd-label-floating">Email</label>
-                  {{ form.email }}
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Email</label>
+                    {{ form.email }}
+                  </div>
                 </div>
               </div>
-            </div>
-            <span class="text-danger">{{ form.email.errors }}</span>
+              <span class="text-danger">{{ form.email.errors }}</span>
 
-            <br />
+              <br />
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label class="bmd-label-floating">Password</label>
-                  {{ form.password1 }}
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Password</label>
+                    {{ form.password1 }}
+                  </div>
                 </div>
               </div>
-            </div>
-            <span class="text-danger">{{ form.password1.errors }}</span>
+              <span class="text-danger">{{ form.password1.errors }}</span>
 
-            <br />
+              <br />
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label class="bmd-label-floating">Password Check</label>
-                  {{ form.password2 }}
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Password Check</label>
+                    {{ form.password2 }}
+                  </div>
                 </div>
               </div>
-            </div>
-            <span class="text-danger">{{ form.password2.errors }}</span>
+              <span class="text-danger">{{ form.password2.errors }}</span>
 
-            <br />
+              <br />
 
-            <button type="submit" name="register" class="btn btn-primary pull-left">Register</button>
+              <button type="submit" name="register" class="btn btn-primary pull-left">Register</button>
 
-            &nbsp; &nbsp; 
-            <span class="pull-right">
-              Have an account? <a href="{% url 'login' %}" class="text-primary">Login</a>
-            </span>
+              &nbsp; &nbsp; 
+              <span class="pull-right">
+                Have an account? <a href="{% url 'login' %}" class="text-primary">Login</a>
+              </span>
 
-            <div class="clearfix"></div>
+              <div class="clearfix"></div>
 
-          </form>
+            </form>
+          {% endif %}
+
         </div>
       </div>
     </div>
