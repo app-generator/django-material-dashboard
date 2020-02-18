@@ -14,13 +14,14 @@
 
 - **Heroku** - Cloud Application Platform
 - **Docker** - execute the app using a sandboxed container
-- **Gunicorn** / Nginx - a common used configuration for Django Apps
+- **Gunicorn** / Nginx
 - **Waitress** - Gunicorn equivalent for Windows.       
 
 ### Web App Links
 
 - [Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - product page 
-- [Django Dashboard Material](https://django-dashboard-material.herokuapp.com/) - LIVE Demo
+- [Django Dashboard Material](https://django-dashboard-material.appseed.us/login/) - LIVE Demo
+- [Django Dashboard Material](https://www.youtube.com/watch?v=HwloHQlDPBQ) - yTube presentation
 
 <br />
 
@@ -183,7 +184,6 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 ## Credits
 
-- [Django Dashboard Material](https://www.youtube.com/watch?v=HwloHQlDPBQ) - yTube presentation
 - [Django Framework](https://www.djangoproject.com/) - Offcial website
 - [Django Admin Dashboards](https://appseed.us/admin-dashboards/django) - Open-source and paid admin panels coded in **Django**
 
