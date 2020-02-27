@@ -11,7 +11,8 @@ from django.http import HttpResponse
 
 @login_required(login_url="/login/")
 def index(request):
-    return render(request, "index.html")
+    context = {'segment' : 'index'}
+    return render(request, "index.html", context)
 
 @login_required(login_url="/login/")
 def pages(request):
@@ -21,6 +22,9 @@ def pages(request):
     try:
 
         load_template = request.path.split('/')[-1]
+
+        context['segment'] = load_template
+
         template = loader.get_template('pages/' + load_template)
         return HttpResponse(template.render(context, request))
 
