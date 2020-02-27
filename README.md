@@ -202,7 +202,7 @@ A dashboard is a set of pages that are easy to read and offer information to the
 
 ### [Material Dashboard](https://www.creative-tim.com/product/material-dashboard?ref=appseed)
 
-*8[Material Dashboard](https://www.creative-tim.com/product/material-dashboard?ref=appseed)** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard was built over the popular Bootstrap 4 framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements - provided by **Creative-Tim**.
+**[Material Dashboard](https://www.creative-tim.com/product/material-dashboard?ref=appseed)** is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. Material Dashboard was built over the popular Bootstrap 4 framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements - provided by **Creative-Tim**.
 
 <br />
 
