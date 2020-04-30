@@ -27,15 +27,7 @@ This product is **built based on community feedback**. Feel free (anonymously) t
 
 <br />
 
-## Deployment Scripts
-
-- **Docker** - execute the app using a sandboxed container
-- **Gunicorn** / Nginx
-- **Waitress** - Gunicorn equivalent for Windows.
-
-<br />
-
-## Web App Links
+## Dashboard Links
 
 - [Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - product page 
 - [Django Dashboard Material](https://django-dashboard-material.appseed.us/login/) - LIVE Demo
