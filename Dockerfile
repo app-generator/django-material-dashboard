@@ -1,6 +1,6 @@
 FROM python:3.6
 
-ENV FLASK_APP run.py
+ENV DJANGO_APP run.py
 
 COPY manage.py gunicorn-cfg.py requirements.txt .env ./
 COPY app app
