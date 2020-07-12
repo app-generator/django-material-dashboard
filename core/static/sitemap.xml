@@ -7,7 +7,7 @@
 
   <!-- Main links -->
   <url>
-    <loc>https://flask-argon-dashboard.appseed.us</loc>
+    <loc>https://django-dashboard-dattaable.appseed.us</loc>
     <priority>1</priority>
     <changefreq>monthly</changefreq>
   </url>
