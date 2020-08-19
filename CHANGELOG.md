@@ -1,5 +1,11 @@
 # Change Log
 
+## Bug Fixes
+### Sidebar navigation active highlight
+
+Now the current segment is injected in the page context.
+Sidebar.html detects the current page and highlight the submenu
+
 ## [1.0.1] 2020-07-12
 ### Improvements
 
