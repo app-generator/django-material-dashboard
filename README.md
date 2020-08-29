@@ -13,7 +13,7 @@
 
 > Links
 
-- [Django Dashboard - Material design](https://appseed.us/admin-dashboards/django-dashboard-material) - pProduct page
+- [Django Dashboard - Material design](https://appseed.us/admin-dashboards/django-dashboard-material) - Product page
 - [Django Dashboard Material Demo](https://django-dashboard-material.appseed.us/) - LIVE App
 - [Boierplate Code Django](https://docs.appseed.us/boilerplate-code/django-dashboard/) - Reference Documentation
 - More [Django Dashboards](https://appseed.us/admin-dashboards/django) - index hosted by **AppSeed**
