@@ -5,9 +5,10 @@
           Django Dashboard
         </a>
       </div>
-      {% if user.is_authenticated %}
+      
       <div class="sidebar-wrapper">
         <ul class="nav">
+          {% if user.is_authenticated %}
           <li class="nav-item {% if 'index' == segment %} active {% endif %}">
             <a class="nav-link" href="/">
               <i class="material-icons">dashboard</i>
@@ -65,15 +66,24 @@
             </a>
           </li>
 
-          <li class="nav-item active-pro ">
+          <li class="nav-item active-pro">
             <a target="_blank" rel="noopener noreferrer"  
-               class="nav-link" href="https://appseed.us/admin-dashboards/django-dashboard-material">
+               class="nav-link" href="https://appseed.us/admin-dashboards/django-dashboard-material-pro">
               <i class="material-icons">unarchive</i>
-              <p>See product</p>
+              <p>PRO Version</p>
             </a>
           </li>
+          {% else %}
+          <li class="nav-item active">
+            <a target="_blank" rel="noopener noreferrer"  
+               class="nav-link" href="https://appseed.us/admin-dashboards/django-dashboard-material-pro">
+              <i class="material-icons">unarchive</i>
+              <p>PRO Version</p>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
-      {% endif %}
+      
 
     </div>
