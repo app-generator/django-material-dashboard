@@ -1,21 +1,21 @@
 # [Django Dashboard - Material Design](https://appseed.us/admin-dashboards/django-dashboard-material)
 
-> **Open-Source Admin Dashboard** coded in **Django Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
+Material Dashboard is a free Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material Dashboard was built over the popular Bootstrap 4 framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
+
+> App Features:
 
 - UI Kit: **Material Dashboard** (Free Version) provided by **Creative-Tim**
-- UI-Ready app, SQLite Database, Django Native ORM
-- Modular design, clean code-base
+- SQLite Database, Django Native ORM
+- Modular design, clean codebase
 - Session-Based Authentication, Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
-- **[MIT License](https://github.com/app-generator/license-mit)**
-- Free support via **Github** issues tracker
-- Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
 - [Django Dashboard - Material design](https://appseed.us/admin-dashboards/django-dashboard-material) - Product page
 - [Django Dashboard Material Demo](https://django-dashboard-material.appseed.us/) - LIVE App
-- [Boierplate Code Django](https://docs.appseed.us/boilerplate-code/django-dashboard/) - Reference Documentation
+- [Django Dashboard Material Docs](https://docs.appseed.us/admin-dashboards/django-dashboard-material/) - Product documentation
 - More [Django Dashboards](https://appseed.us/admin-dashboards/django) - index hosted by **AppSeed**
 - More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
 
