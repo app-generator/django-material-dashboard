@@ -9,15 +9,17 @@ Material Dashboard is a free Material Bootstrap 4 Admin with a fresh, new design
 - Modular design, clean codebase
 - Session-Based Authentication, Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+
+<br />
 
 > Links
 
-- [Django Dashboard - Material design](https://appseed.us/admin-dashboards/django-dashboard-material) - Product page
-- [Django Dashboard Material Demo](https://django-dashboard-material.appseed.us/) - LIVE App
-- [Django Dashboard Material Docs](https://docs.appseed.us/admin-dashboards/django-dashboard-material/) - Product documentation
-- More [Django Dashboards](https://appseed.us/admin-dashboards/django) - index hosted by **AppSeed**
-- More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
+- [Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - product page
+- [Django Dashboard Material - Demo](https://django-dashboard-material.appseed.us/) - LIVE App
+- [Django Dashboard Material - Docs](https://docs.appseed.us/admin-dashboards/django-dashboard-material/) - product documentation
+
+<br />
 
 ## Want more? Go PRO!
 
