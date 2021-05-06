@@ -17,8 +17,8 @@
 > Links
 
 - [Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - product page
-- [Django Dashboard Material - Demo](https://django-material-dashboard.appseed-srv1.com/) - LIVE App
-- [Django Dashboard Material - Docs](https://docs.appseed.us/admin-dashboards/django-dashboard-material/) - product documentation
+- [Django Dashboard Material](https://django-material-dashboard.appseed-srv1.com/) - LIVE App
+- [Django Dashboard Material](https://docs.appseed.us/products/django-dashboards/material-dashboard) - product documentation
 
 <br />
 
