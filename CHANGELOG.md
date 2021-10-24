@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.3] 2021-10-22
+### Improvements
+
+- Bump UI: Material Dashboard - v3.0.0
+  - Update Bootstrap to v5.1.3
+  - Update to Material Design 2
+
 ## [1.0.2] 2021-09-17
 ### Improvements
 
