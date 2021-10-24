@@ -34,9 +34,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 | [![Django Datta PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-dattaable-pro/master/media/django-dashboard-dattaable-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-dattaable-pro) | [![Django Soft PRO](https://user-images.githubusercontent.com/51070104/123547150-3f176300-d768-11eb-9359-ad6611e19a3a.png)](https://appseed.us/product/django-soft-ui-dashboard-pro) | [![Django Volt PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-volt-pro/master/media/django-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-volt-pro)
 
 <br />
-<br />
 
-![Django Dashboard Material Design - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-material/master/media/django-dashboard-material-screen.png)
+![Django Dashboard Material Design - Template project provided by AppSeed.](https://user-images.githubusercontent.com/51070104/138584503-5abc6dd3-793f-40ee-8224-82fa121167bc.gif)
 
 <br />
 
