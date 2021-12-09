@@ -37,9 +37,7 @@ $ cd django-dashboard-material
 > Start the app in Docker
 
 ```bash
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up -d  # start the app 
+$ docker-compose up --build
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
@@ -54,8 +52,8 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-dashboard-material.git
-$ cd django-dashboard-material
+$ git clone https://github.com/app-generator/django-material-dashboard.git
+$ cd django-material-dashboard
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -249,4 +247,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Django Dashboard](https://appseed.us/admin-dashboards/django) Material Design - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+[Django Dashboard Material](https://appseed.us/admin-dashboards/django-dashboard-material) - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
