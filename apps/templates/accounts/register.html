@@ -35,25 +35,21 @@
                     {% csrf_token %} 
 
                     <div class="input-group input-group-outline mb-3">
-                      <label class="form-label">Username</label>
                       {{ form.username }}
                     </div>
                     <span class="text-danger">{{ form.username.errors }}</span>
 
                     <div class="input-group input-group-outline mb-3">
-                      <label class="form-label">Email</label>
                       {{ form.email }}
                     </div>
                     <span class="text-danger">{{ form.email.errors }}</span>
 
                     <div class="input-group input-group-outline mb-3">
-                      <label class="form-label">Password</label>
                       {{ form.password1 }}
                     </div>
                     <span class="text-danger">{{ form.password1.errors }}</span>
 
                     <div class="input-group input-group-outline mb-3">
-                      <label class="form-label">Password Confirmation</label>
                       {{ form.password2 }}
                     </div>
                     <span class="text-danger">{{ form.password2.errors }}</span>
