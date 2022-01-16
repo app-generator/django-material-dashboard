@@ -6,13 +6,13 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 
 > Features
 
-- `Up-to-date dependencies`: **Django 3.2.6 LTS**
+- `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI Kit: **Material Dashboard - v3.0.0** (Bootstrap 5 Version) by **Creative-Tim**
-- UI-Ready app, SQLite Database, Django Native ORM
-- Session-Based Authentication, Forms validation
-- `Deployment`: **Docker**, Gunicorn / Nginx
-- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+- UI-Ready app, `SQLite Database`, Django Native ORM
+- `Session-Based authentication`, Forms validation
+- `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
@@ -29,8 +29,8 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/django-dashboard-material.git
-$ cd django-dashboard-material
+$ git clone https://github.com/app-generator/django-material-dashboard.git
+$ cd django-material-dashboard
 ```
 
 > Start the app in Docker
