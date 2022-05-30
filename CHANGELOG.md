@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.5] 2022-05-30
+### Improvements
+
+- Built with [Material Dashboard Generator](https://appseed.us/generator/material-dashboard/)
+  - Timestamp: `2022-05-30 21:17`
+
 ## [1.0.4] 2022-01-16
 ### Improvements
 
