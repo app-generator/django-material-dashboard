@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.7] 2023-01-07
+### Changes
+
+- Bump Theme Version: `v1.0.6`
+
 ## [1.0.6] 2023-01-07
 ### Changes
 
