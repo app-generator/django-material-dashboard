@@ -71,21 +71,25 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 
 <br />
 
-## Screenshots
+## [PRO Version](https://appseed.us/product/material-dashboard2-pro/django/)   
 
-This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design inspired by Google's Material Design. **Material Dashboard** is built with over 60 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. 
+This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design inspired by Google's Material Design. `Material Dashboard 2 PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
+
+> Features: 
+
+- ✅ `Up-to-date Dependencies`
+- ✅ `Design`: [Django Theme Material2](https://github.com/app-generator/django-admin-material2-pro) - `PRO Version`
+- ✅ `Sections` covered by the design:
+  - ✅ **Admin section** (reserved for superusers)
+  - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
+  - ✅ **All Pages** available in for ordinary users 
+- ✅ `Docker`
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
 
 <br />
 
-> **[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - `Admin Section` 
-
-![Django Admin Material Dashboard - Admin dashboard page.](https://user-images.githubusercontent.com/51070104/196743760-6e0e1930-8233-421c-ac53-d65c273b00dc.png)
-
-<br />
-
-> **[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - `Admin Widgets`
-
-![Django Admin Material Dashboard - New User Page.](https://user-images.githubusercontent.com/51070104/196743821-2e140dd8-fe15-4615-9e9f-0467900b1a1b.png)
+![Material Dashboard 2 Pro](https://user-images.githubusercontent.com/51070104/211141418-6b7886eb-6fb3-433e-91c9-2895c086099a.png)
 
 <br />
 
