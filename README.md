@@ -4,7 +4,7 @@ Open-source **Django** project crafted on top of **Material Dashboard**, an open
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Material Material` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 - 👉 [Django Material Dashboard](https://appseed.us/product/material-dashboard/django/) - `Product page`
-- 👉 [Django Material Dashboard](https://django-material-dashboard.onrender.com) - `LIVE Demo`
+- 👉 [Django Material Dashboard](https://django-material-dash2.onrender.com) - `LIVE Demo`
 - 🚀 Free [Support](https://appseed.us/support/) via `Email` & `Discord`
 
 <br />
