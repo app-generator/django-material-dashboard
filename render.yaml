@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-material-dashboard
+    name: django-material-dash2
     plan: starter
     env: python
     region: frankfurt  # region should be same as your database region.
