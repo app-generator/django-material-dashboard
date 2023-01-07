@@ -16,7 +16,6 @@ The product is designed to deliver the best possible user experience with highly
 - ✅ **Authentication**: `Django.contrib.AUTH`, Registration
 - 🚀 `Deployment` 
   - `CI/CD` flow via `Render`
-  - [Go LIVE with Django Material Dashboard](https://www.youtube.com/watch?v=ShQKSf5y7mI) - `video presentation`
 
 <br />
 
