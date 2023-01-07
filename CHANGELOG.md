@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.6] 2023-01-07
+### Changes
+
+- Move to theme-based pattern
+  - [Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)
+- 🚀 `Deployment` 
+  - `CI/CD` flow via `Render`
+
 ## [1.0.5] 2022-05-30
 ### Improvements
 
