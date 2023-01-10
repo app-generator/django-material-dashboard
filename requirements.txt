@@ -2,7 +2,7 @@ django
 gunicorn
 python-dotenv
 whitenoise
-django-admin-material-dashboard==1.0.7
+django-admin-material-dashboard==1.0.8
 
 # psycopg2-binary
 # mysqlclient

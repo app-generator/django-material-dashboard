@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.8] 2023-01-10
+### Changes
+
+- Bump Theme Version
+  - [Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard) `v1.0.8`
+
 ## [1.0.7] 2023-01-07
 ### Changes
 
