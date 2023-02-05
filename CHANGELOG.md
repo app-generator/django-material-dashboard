@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.9] 2023-02-05
+### Changes
+
+- Bump UI: [Material Dashboard](https://github.com/app-generator/django-admin-material-dashboard) `v1.0.9`
+- DOCS Update (readme). New sections:
+  - `How to customize the theme`
+  - Render deployment
+- Configure the project to use `home/templates`
+- Added `custom-footer` sample
+
 ## [1.0.8] 2023-01-10
 ### Changes
 
