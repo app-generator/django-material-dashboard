@@ -30,7 +30,11 @@ if not SECRET_KEY:
 # Render Deployment Code
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = []
+# Docker HOST
+ALLOWED_HOSTS = ['localhost']
+
+# Add here your deployment HOSTS
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:5085']
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:    
@@ -63,10 +67,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "core.urls"
 
+HOME_TEMPLATES = os.path.join(BASE_DIR, 'home', 'templates')
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [HOME_TEMPLATES],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
