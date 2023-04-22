@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.10] 2023-04-22
+### Changes
+
+- Bump UI version 
+- Added Gulp Tooling for SCSS
+- Update DOCS (readme)
+  - `CSS Styling`
+
 ## [1.0.9] 2023-02-05
 ### Changes
 
