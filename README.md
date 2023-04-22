@@ -158,6 +158,39 @@ In a similar way, all other files and components can be customized easily.
 
 <br />
 
+## CSS Styling 
+
+The UI can be customized via the SCSS file. This setup was tested using: 
+
+- `Node` v16.15.0
+- `Yarn` 1.22.18 
+- `Gulp` CLI version: `2.3.0`, Local version: `4.0.2`
+
+```bash
+$ cd static
+$ yarn                                       # Install Modules 
+$ vi scss/material-dashboard/_variables.scss # Edit primary, secondary colors
+$ gulp                                       # Regenerate CSS files   
+```
+
+> NOTE, once the CSS files are successfully regenerated, force a hard refresh in the browser (Shift + F5 in Chrome).
+
+The relevant lines in `_variables.scss` are highlighted below: 
+
+```SCSS
+// _variables.scss, LINES 56 -> 63
+$primary:       #e91e63 !default;   // EDIT & Recompile SCSS
+$secondary:     #7b809a !default;   // EDIT & Recompile SCSS
+$info:          #1A73E8 !default;   // EDIT & Recompile SCSS
+$success:       #4CAF50 !default;   // EDIT & Recompile SCSS
+$warning:       #fb8c00 !default;   // EDIT & Recompile SCSS
+$danger:        #F44335 !default;   // EDIT & Recompile SCSS
+$light:         $gray-200 !default; // EDIT & Recompile SCSS
+$dark:          $h-color !default;  // EDIT & Recompile SCSS
+```
+
+<br />
+
 ## Deploy on [Render](https://render.com/)
 
 - Create a Blueprint instance
