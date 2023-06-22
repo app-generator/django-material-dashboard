@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.11] 2023-06-22
+### Changes
+
+- Update `Settings`
+- Code change for #10
+  - added sidebar `templates/includes/sidebar.html`
+
 ## [1.0.10] 2023-04-22
 ### Changes
 
