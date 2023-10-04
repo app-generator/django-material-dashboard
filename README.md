@@ -1,6 +1,6 @@
 # [Django Material Dashboard](https://appseed.us/product/material-dashboard/django/)
 
-Open-source **Django** project crafted on top of **[Material Dashboard](https://appseed.us/product/material-dashboard/django/)**, an open-source `Boostrap 5` design from [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200)
+Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** crafted on top of **Material Dashboard**, an open-source `Boostrap 5` design from `Creative-Tim`.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. `Material Material` has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 - 👉 [Django Material Dashboard](https://appseed.us/product/material-dashboard/django/) - `Product page`
