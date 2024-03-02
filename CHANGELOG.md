@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.0.13] 2024-03-02
+### Changes
+
+- Deprecate `distutils`
+  - use `str2bool`
+- Update Deps 
+  - `requirements.txt`  
+- Update README: [PRO Version](https://appseed.us/product/material-dashboard2-pro/django/), List features
+  - `API`, **Charts** 
+  - **DataTables** (Filters, Export)
+  - **Celery**
+  - **Media Files Manager**
+  - **Extended User Profiles**
+
 ## [1.0.12] 2023-10-24
 ### Changes
 

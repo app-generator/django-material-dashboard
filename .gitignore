@@ -10,7 +10,7 @@ env
 /staticfiles/
 
 #src
-*.sqlite*
+#*.sqlite*
 
-.env
+#.env
 node_modules
