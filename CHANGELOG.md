@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.16] 2024-11-11
+### Changes
+
+- Update RM Links:
+  - 👉 [Django Material Dashboard](https://app-generator.dev/docs/products/django/material-dashboard/index.html) - **Complete Documentation**
+  - 👉 [Django Material Dashboard](https://django-material-dash2.onrender.com) - LIVE Demo 
+  - 👉 [Get Support](https://app-generator.dev/ticket/create/) via Email and Discord
+
 ## [1.0.15] 2024-05-18
 ### Changes
 
