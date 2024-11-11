@@ -5,7 +5,7 @@
 
 - Update RM Links:
   - 👉 [Django Material Dashboard](https://app-generator.dev/docs/products/django/material-dashboard/index.html) - **Complete Documentation**
-  - 👉 [Django Material Dashboard](https://django-material-dash2.onrender.com) - LIVE Demo 
+  - 👉 [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) - Product Page
   - 👉 [Get Support](https://app-generator.dev/ticket/create/) via Email and Discord
 
 ## [1.0.15] 2024-05-18
