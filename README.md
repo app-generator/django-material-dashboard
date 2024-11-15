@@ -18,7 +18,7 @@ The product is designed to deliver the best possible user experience with highly
 - `CI/CD` Flow via Render 
 - `Docker`
 
-![Django Material Dashboard - Open-Source Django Starter ](https://user-images.githubusercontent.com/51070104/169301658-6cf27993-c451-4cd4-9ffa-2968b8981167.png)
+![Django Material Dashboard - Open-Source Django Starter](https://github.com/user-attachments/assets/532e06c1-1af3-4439-93fc-6de3a9d43c52)
 
 <br />
 
