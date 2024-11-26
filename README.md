@@ -4,9 +4,9 @@
 Open-source **Django** project crafted on top of **Material Dashboard**, an open-source iconic `Bootstrap` design.
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
-- 👉 [Django Gradient Able](https://app-generator.dev/product/material-dashboard/django/) - `Product Page`
-- 👉 [Django Gradient Able](https://django-material-dash2.onrender.com/) - `LIVE Demo` 
-- 👉 [Django Gradient Able Documentation](https://app-generator.dev/docs/products/django/material-dashboard/index.html) - `Complete Information` and Support Links
+- 👉 [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) - `Product Page`
+- 👉 [Django Material Dashboard](https://django-material-dash2.onrender.com/) - `LIVE Demo` 
+- 👉 [Django Material Dashboard Documentation](https://app-generator.dev/docs/products/django/material-dashboard/index.html) - `Complete Information` and Support Links
   - [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - a `comprehensive tutorial`
   - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 
   - `Start with Docker`
