@@ -16,13 +16,21 @@ The product is designed to deliver the best possible user experience with highly
  
 <br />
 
+## Deploy on `Render` (free plan)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+<br /> 
+
 ## Features
 
-- **Django 4.1.12**
-- Best Practices
-- [Material Dashboard](https://app-generator.dev/docs/templates/bootstrap/material-dashboard.html) - Full Integration 
-- `CI/CD` Flow via Render 
-- `Docker`
+- Simple, Easy-to-Extend Codebase
+- Material Dashboard Design - Full Integration 
+- Bootstrap 5 Styling 
+- Session-based Authentication, Password recovery
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Docker 
+- CI/CD integration for Render 
 
 ![Django Material Dashboard - Open-Source Django Starter](https://github.com/user-attachments/assets/532e06c1-1af3-4439-93fc-6de3a9d43c52)
 
