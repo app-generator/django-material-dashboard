@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.19] 2024-12-02
+### Changes
+
+- Bump UI Version
+
 ## [1.0.18] 2024-11-28
 ### Changes
 
