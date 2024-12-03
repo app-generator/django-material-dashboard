@@ -34,7 +34,7 @@ The product is designed to deliver the best possible user experience with highly
 - Docker 
 - CI/CD integration for Render 
 
-![Django Material Dashboard - Open-Source Django Starter](https://github.com/user-attachments/assets/532e06c1-1af3-4439-93fc-6de3a9d43c52)
+![Django Material Dashboard - Open-Source Django Starter](https://github.com/user-attachments/assets/dba1a100-3309-400c-99bc-6ba707697509)
 
 <br />
 
