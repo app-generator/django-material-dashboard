@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: django-material-dash2
-    plan: starter
+    name: django-material-dash2-latest
+    plan: free
     env: python
     region: frankfurt  # region should be same as your database region.
     buildCommand: "./build.sh"
