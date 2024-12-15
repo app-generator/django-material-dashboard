@@ -3,7 +3,7 @@
 ## [1.0.23] 2024-12-15
 ### Changes
 
-Mention [Django App Generator](https://app-generator.dev/tools/django-generator/) Service:
+> Mention [Django App Generator](https://app-generator.dev/tools/django-generator/) Service:
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
 - Select the preferred design
