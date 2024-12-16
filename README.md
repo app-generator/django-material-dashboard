@@ -19,7 +19,7 @@ The product is designed to deliver the best possible user experience with highly
 ### Customize with [Django App Generator - Material Design](https://app-generator.dev/tools/django-generator/material/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select Material Dashboard as the preferred design
+- Select **Material Dashboard** as the preferred design
 - (Optional) Design Database: edit models and fields
 - (Optional) Edit the fields for the extended user model
 - (Optional) Enable OAuth for GitHub
