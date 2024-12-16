@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.24] 2024-12-16
+### Changes
+
+- Preselect the design in the Generator:
+  - [Django App Generator - Material Design](https://app-generator.dev/tools/django-generator/material/)
+
 ## [1.0.23] 2024-12-15
 ### Changes
 

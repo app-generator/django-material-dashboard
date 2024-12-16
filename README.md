@@ -16,7 +16,7 @@ The product is designed to deliver the best possible user experience with highly
  
 <br />
 
-## Add Features with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+### Customize with [Django App Generator - Material Design](https://app-generator.dev/tools/django-generator/material/)
 
 - Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
 - Select Material Dashboard as the preferred design
