@@ -52,7 +52,7 @@ The product is designed to deliver the best possible user experience with highly
 - **Celery** (async tasks)
 - **Deployment-Ready** for Render 
 
-![Django Material Dash2 PRO - Premium starter crafted by App-Generator.](https://github.com/user-attachments/assets/c75c6e67-a940-4d56-9855-070f901ab5ab)
+![Django Material Dashboard PRO - Premium starter crafted by App-Generator.](https://github.com/user-attachments/assets/5fcc4dbd-4c1a-461d-a01e-0c3903b0b5ae)
 
 <br />
 
