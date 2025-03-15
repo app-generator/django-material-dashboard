@@ -19,8 +19,8 @@ The product is designed to deliver the best possible user experience with highly
 ## Features
 
 - Simple, Easy-to-Extend Codebase
-- Material Dashboard Design - Full Integration 
-- Bootstrap 5 Styling 
+- [Material Dashboard](https://app-generator.dev/docs/templates/bootstrap/material-dashboard.html) Integration 
+- Bootstrap Styling 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker 
