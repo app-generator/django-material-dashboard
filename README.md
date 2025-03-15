@@ -16,30 +16,6 @@ The product is designed to deliver the best possible user experience with highly
  
 <br />
 
-### Customize with [Django App Generator - Material Design](https://app-generator.dev/tools/django-generator/material/)
-
-- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
-- Select **Material Dashboard** as the preferred design
-- (Optional) Design Database: edit models and fields
-- (Optional) Edit the fields for the extended user model
-- (Optional) Enable OAuth for GitHub
-- (Optional) Add Celery (async tasks)
-- (Optional) Enable Dynamic API Module
-- Docker Scripts
-- Render CI/Cd Scripts
-
-**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
-
-<br />
-
-## Deploy LIVE
-
-> One-click deploy (requires to have already an account).
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
-<br /> 
-
 ## Features
 
 - Simple, Easy-to-Extend Codebase
@@ -53,6 +29,14 @@ The product is designed to deliver the best possible user experience with highly
 ![Django Material Dashboard - Open-Source Django Starter](https://github.com/user-attachments/assets/dba1a100-3309-400c-99bc-6ba707697509)
 
 <br />
+
+## Deploy LIVE
+
+> One-click deploy (requires to have already an account).
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+<br /> 
 
 ## [Material Dashboard PRO Version](https://app-generator.dev/product/material-dashboard-pro/django/)
 
@@ -69,6 +53,26 @@ The product is designed to deliver the best possible user experience with highly
 - **Deployment-Ready** for Render 
 
 ![Django Material Dash2 PRO - Premium starter crafted by App-Generator.](https://github.com/user-attachments/assets/c75c6e67-a940-4d56-9855-070f901ab5ab)
+
+<br />
+
+## `Customize` with [Django App Generator](https://app-generator.dev/tools/django-generator/)
+
+- Access the [App Generator](https://app-generator.dev/tools/django-generator/) page
+- Select the preferred design
+- (Optional) Design Database: edit models and fields
+- (Optional) Edit the fields for the extended user model
+- (Optional) Enable OAuth for GitHub
+- (Optional) Add Celery (async tasks)
+- (Optional) Enable Dynamic API Module
+- Docker Scripts
+- Render CI/Cd Scripts
+
+**The generated Django project is available as a ZIP Archive and also uploaded to GitHub.**
+
+![Django Generator - User Interface for choosing the Design](https://github.com/user-attachments/assets/b989c434-1c53-49ff-8dda-b46dbfc142ac) 
+
+![Django App Generator - User Interface for Edit the Extended User Model](https://github.com/user-attachments/assets/f1a5fb68-a5ba-49c9-a3ae-91716de09912) 
 
 <br />
 
