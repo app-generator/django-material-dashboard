@@ -1,0 +1,165 @@
+{% load i18n static admin_material %}
+
+<aside style="z-index: 1;" class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2  bg-white my-2" id="sidenav-main">
+    <div class="sidenav-header">
+      <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+      <a class="navbar-brand px-4 py-3 m-0" href="{% url "index" %}">
+        <img src="{% static "assets/img/logo-ct-dark.png" %}" class="navbar-brand-img" width="26" height="26" alt="main_logo">
+        <span class="ms-1 text-sm text-dark">
+          Django Material
+        </span>
+      </a>
+    </div>
+    <hr class="horizontal dark mt-0 mb-2">
+    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        {% admin_get_menu as app_list %}
+        {% if app_list %}
+          {% for app in app_list %}
+            {% if app.has_perms and not app.pinned %}
+              <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#apps" class="nav-link text-dark" aria-controls="apps" role="button" aria-expanded="false">
+                  <i class="material-symbols-rounded opacity-5">dashboard</i>
+                  <span class="nav-link-text ms-2 ps-1">{{ app.label|slice:10 }}{% if app.label|length > 10 %}..{% endif %}</span>
+                </a>
+                {% if app.models %}
+                <div class="collapse show" id="apps">
+                  <ul class="nav">
+                    {% for model in app.models %}
+                      {% if model.url %}
+                        <li class="nav-item">
+                          <a class="nav-link text-dark" href="{{ model.url }}">
+                            <span class="sidenav-mini-icon"> {{ model.label|first }} </span>
+                            <span class="sidenav-normal  ms-2  ps-1"> {{ model.label }} </span>
+                          </a>
+                        </li>
+                      {% else %}
+                        <li class="nav-item">{{ model.label }}</li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-5">Apps</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'dashboard' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "index" %}">
+            <i class="material-symbols-rounded opacity-5">dashboard</i>
+            <span class="nav-link-text ms-1">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'dynamic_dt' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "dynamic_dt" %}">
+            <i class="material-symbols-rounded opacity-5">table_view</i>
+            <span class="nav-link-text ms-1">Dynamic Tables</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'dynamic_api' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "dynamic_api" %}">
+            <i class="material-symbols-rounded opacity-5">dns</i>
+            <span class="nav-link-text ms-1">Dynamic API</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'charts' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "charts" %}">
+            <i class="material-symbols-rounded opacity-5">bar_chart</i>
+            <span class="nav-link-text ms-1">Charts</span>
+          </a>
+        </li>
+
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-5">UI pages</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'tables' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "tables" %}">
+            <i class="material-symbols-rounded opacity-5">table_view</i>
+            <span class="nav-link-text ms-1">Tables</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'billing' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "billing" %}">
+            <i class="material-symbols-rounded opacity-5">receipt_long</i>
+            <span class="nav-link-text ms-1">Billing</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'virtual_reality' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "virtual_reality" %}">
+            <i class="material-symbols-rounded opacity-5">view_in_ar</i>
+            <span class="nav-link-text ms-1">Virtual Reality</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'rtl' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "rtl" %}">
+            <i class="material-symbols-rounded opacity-5">format_textdirection_r_to_l</i>
+            <span class="nav-link-text ms-1">RTL</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'notifications' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "notifications" %}">
+            <i class="material-symbols-rounded opacity-5">notifications</i>
+            <span class="nav-link-text ms-1">Notifications</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'map' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "map" %}">
+            <i class="material-symbols-rounded opacity-5">map</i>
+            <span class="nav-link-text ms-1">Map</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'icons' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "icons" %}">
+            <i class="material-symbols-rounded opacity-5">flag</i>
+            <span class="nav-link-text ms-1">Icons</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if 'typography' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "typography" %}">
+            <i class="material-symbols-rounded opacity-5">title</i>
+            <span class="nav-link-text ms-1">Typography</span>
+          </a>
+        </li>
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-5">Account pages</h6>
+        </li>
+        {% if request.user.is_authenticated %}
+        <li class="nav-item">
+          <a class="nav-link {% if 'profile' == segment %} active bg-gradient-dark text-white {% else %} text-dark {% endif %}" href="{% url "profile" %}">
+            <i class="material-symbols-rounded opacity-5">person</i>
+            <span class="nav-link-text ms-1">Profile</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="{% url "logout" %}">
+            <i class="material-symbols-rounded opacity-5">login</i>
+            <span class="nav-link-text ms-1">Logout</span>
+          </a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="{% url "login" %}">
+            <i class="material-symbols-rounded opacity-5">login</i>
+            <span class="nav-link-text ms-1">Sign In</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="{% url "register" %}">
+            <i class="material-symbols-rounded opacity-5">assignment</i>
+            <span class="nav-link-text ms-1">Sign Up</span>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+    <div class="sidenav-footer position-absolute w-100 bottom-0 ">
+      <div class="mx-3">
+        <a class="btn btn-outline-dark mt-4 w-100" href="https://app-generator.dev/docs/products/django/material-dashboard/index.html" type="button">Documentation</a>
+        <a class="btn bg-gradient-dark w-100" href="https://app-generator.dev/product/material-dashboard-pro/django/" type="button">Upgrade to PRO</a>
+      </div>
+    </div>
+</aside>

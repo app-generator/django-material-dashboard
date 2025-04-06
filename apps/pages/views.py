@@ -6,4 +6,4 @@ from django.http import HttpResponse
 def index(request):
 
     # Page from the theme 
-    return render(request, 'pages/index.html')
+    return render(request, 'pages/index.html', {'segment': 'dashboard'})
