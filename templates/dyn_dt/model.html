@@ -30,7 +30,7 @@
         position: absolute;
         left: 50%;
         right: 50%;
-        bottom: -10px;
+        bottom: -5px;
     }
     .table-row:hover .data-td {
         opacity: 0.1;
@@ -148,7 +148,7 @@
                                     <thead>
                                     <tr>
                                         {% for field in db_field_names %}
-                                            <th id="th_{{ field }}" scope="col">{{ field }}</th>
+                                            <th class="px-2" id="th_{{ field }}" scope="col">{{ field }}</th>
                                         {% endfor %}
                                     </tr>
                                     </thead>
@@ -161,12 +161,18 @@
                 
                                             {% if request.user.is_authenticated %}
                                             <td class="d-none action-td" >
-                                                <a data-bs-toggle="modal" data-bs-target="#editSales-{{item.id}}" class="btn mb-0 btn-primary" href="#"><i class="material-symbols-rounded opacity-5">edit</i></a>
-                                                <a data-bs-toggle="modal" data-bs-target="#deleteSales-{{item.id}}" class="btn mb-0 btn-danger" href="#"><i class="material-symbols-rounded opacity-5">delete</i></a>
+                                                <a data-bs-toggle="modal" data-bs-target="#editSales-{{item.id}}" class="btn mb-0 btn-primary btn-sm p-0 px-3 pe-4 ps-2 py-2" href="#">
+                                                    <i style="font-size: 14px;" class="material-symbols-rounded opacity-5">edit</i>
+                                                </a>
+                                                <a data-bs-toggle="modal" data-bs-target="#deleteSales-{{item.id}}" class="btn mb-0 btn-primary btn-sm p-0 px-3 pe-4 ps-2 py-2" href="#">
+                                                    <i style="font-size: 14px;" class="material-symbols-rounded opacity-5">delete</i>
+                                                </a>
                                             </td>
                                             {% else %}
                                             <td class="d-none action-td">
-                                                <a data-bs-toggle="modal" data-bs-target="#viewSales-{{item.id}}" class="btn mb-0 btn-primary btn-sm p-0 px-3 py-2 " href="#"><i class="material-symbols-rounded opacity-5">visibility</i></a>
+                                                <a data-bs-toggle="modal" data-bs-target="#viewSales-{{item.id}}" class="btn mb-0 btn-primary btn-sm p-0 px-3 pe-4 ps-2 py-2" href="#">
+                                                    <i style="font-size: 14px;" class="material-symbols-rounded opacity-5">visibility</i>
+                                                </a>
                                             </td>
                                             {% endif %}
                                         </tr>
