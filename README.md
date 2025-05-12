@@ -19,9 +19,9 @@ The product is designed to deliver the best possible user experience with highly
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Apps:
-  - **Dynamic DataTables** - generate server-side datatables without coding
-  - **Dynamic APIs** - Expose secure APIs without coding  
-  - **Charts** - powered by ApexCharts 
+  - [DEMO](https://django-material-dash2.onrender.com/dynamic-dt/product/) **Dynamic DataTables** - generate server-side datatables without coding
+  - [DEMO](https://django-material-dash2.onrender.com/api/product/) **Dynamic APIs** - Expose secure APIs without coding  
+  - [DEMO](https://django-material-dash2.onrender.com/charts/) **Charts** - powered by ApexCharts 
 - [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
     - `Commit/rollback Git Changes`
     - `Backup & restore DB`

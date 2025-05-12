@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.26] 2025-05-12
+### [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) Changes
+
+- Bump UI
+  - [Material Dashboard](https://app-generator.dev/product/material-dashboard/) Library `v1.0.22`
+- Update RM, add DEMO links
+  - [DEMO](https://django-material-dash2.onrender.com/dynamic-dt/product/) **Dynamic DataTables** - generate server-side datatables without coding
+  - [DEMO](https://django-material-dash2.onrender.com/api/product/) **Dynamic APIs** - Expose secure APIs without coding  
+  - [DEMO](https://django-material-dash2.onrender.com/charts/) **Charts** - powered by ApexCharts 
+
 ## [1.0.25] 2025-05-12
 ### [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) Changes
 
