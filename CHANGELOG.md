@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.0.25] 2025-05-12
+### [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) Changes
+
+- Codebase Refactoring
+- CONFIG.Settings/SECRET_KEY: remove randomness if not specified 
+- New APPS
+  - Added Dynamic Tables
+  - Added Dynamic APIs
+  - Charts
+
 ## [1.0.24] 2024-12-16
 ### Changes
 
