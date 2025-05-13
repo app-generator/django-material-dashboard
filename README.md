@@ -14,7 +14,7 @@ The product is designed to deliver the best possible user experience with highly
 ## Features
 
 - Simple, Easy-to-Extend Codebase
-- [Material Dashboard](https://app-generator.dev/product/material-dashboard/)
+- [Material Dashboard](https://app-generator.dev/product/material-dashboard/) Design Integration
 - [Bootstrap](https://app-generator.dev/docs/templates/bootstrap.html) CSS Styling 
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
@@ -61,15 +61,31 @@ The product is designed to deliver the best possible user experience with highly
 
 > The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-material-dash2-pro.onrender.com).
 
-- **Simple, Easy-to-Extend** Codebase
-- **Material Dashboard** Design - PRO Version
-- Bootstrap 5 CSS
-- **OAuth** - Github
-- **Extended User Profile**
-- **API** via DRF 
-- **Charts** via ApexJS 
-- **Celery** (async tasks)
-- **Deployment-Ready** for Render 
+- Simple, Easy-to-Extend Codebase
+- [Material Dashboard](https://app-generator.dev/product/material-dashboard/) Design Integration
+- Bootstrap Styling 
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
+- Extended Users Profiles
+- Authentication
+   - Session-based 
+   - OAuth GitHub, Google
+- Apps:
+  - [DEMO](https://django-material-dash2-pro.onrender.com/dynamic-dt/product/) **Dynamic DataTables** - generate server-side datatables without coding  
+  - [DEMO](https://django-material-dash2-pro.onrender.com/api/product/) **Dynamic APIs** - Expose secure APIs without coding  
+  - [DEMO](https://django-material-dash2-pro.onrender.com/charts/) **Charts** - powered by ApexCharts 
+  - [DEMO](https://django-material-dash2-pro.onrender.com/react-charts) **React Integration**
+  - **Media Files Manager** - empower users to manage and preview files with ease
+  - **Celery** (async tasks)
+- [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
+    - `Commit/rollback Git Changes`
+    - `Backup & restore DB`
+    - `Interact with Django Core`
+    - `Manage Environment`
+    - `Manage Dependencies`  
+- [Deployment](https://app-generator.dev/docs/deployment.html)
+  - Docker/Docker Compose Scripts 
+  - CI/CD for [Render](https://app-generator.dev/docs/deployment/render/index.html)
+- [Vite](https://app-generator.dev/docs/technologies/vite/index.html) for assets management 
 
 ![Django Material Dashboard PRO - Premium starter crafted by App-Generator.](https://github.com/user-attachments/assets/5fcc4dbd-4c1a-461d-a01e-0c3903b0b5ae)
 
