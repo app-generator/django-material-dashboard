@@ -4,7 +4,7 @@
 ### [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) Changes
 
 - Dynamic Tables Icons (minor fix)
-- Update RM - [PRO Version]([Material Dashboard PRO Version](https://app-generator.dev/product/material-dashboard-pro/django/)) Section
+- Update RM - [Material Dashboard PRO Version](https://app-generator.dev/product/material-dashboard-pro/django/) Section
   - List all features
 
 ## [1.0.26] 2025-05-12
