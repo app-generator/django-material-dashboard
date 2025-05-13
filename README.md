@@ -1,13 +1,12 @@
 
 # [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/)
 
-Open-source **Django** project crafted on top of **[Material Dashboard](https://app-generator.dev/product/material-dashboard/)**, 
-an open-source iconic `Bootstrap` Design from [Creative-Tim](https://app-generator.dev/agency/creative-tim/).
-The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
+Open-source **Django** project crafted on top of **[Material Dashboard](https://app-generator.dev/product/material-dashboard/)**, an open-source iconic `Bootstrap` Design from [Creative-Tim](https://app-generator.dev/agency/creative-tim/).
+The product is designed to deliver the best possible user experience with highly customizable, feature-rich pages. 
 
 - 👉 [Django Material Dashboard](https://app-generator.dev/product/material-dashboard/django/) - `Product Page`
 - 👉 [Django Material Dashboard](https://django-material-dash2.onrender.com/) - `LIVE Demo` 
-- 👉 [Django Material Dashboard Documentation](https://app-generator.dev/docs/products/django/material-dashboard/index.html) - `Documentation` (learn how to use the product) 
+- 👉 [Django Material Dashboard](https://app-generator.dev/docs/products/django/material-dashboard/index.html) - `Documentation` (learn how to use the product) 
  
 <br />
 
